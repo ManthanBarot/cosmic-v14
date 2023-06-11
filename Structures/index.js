@@ -19,4 +19,5 @@ const client = new Client({
 })
 
 loadEvents(client)
+
 client.login(process.env.TOKEN)
