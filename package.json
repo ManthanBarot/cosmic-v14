@@ -2,7 +2,7 @@
   "name": "cosmic-v14",
   "version": "1.0.0",
   "description": "A multipurpose discord bot using discord.js.",
-  "main": "index.js",
+  "main": "./Structures/index.js",
   "scripts": {
     "test": "c-"
   },
@@ -20,6 +20,7 @@
     "ascii-table": "^0.0.9",
     "discord.js": "^14.11.0",
     "dotenv": "^16.1.4",
-    "glob": "^10.2.7"
+    "glob": "^10.2.7",
+    "ms": "^2.1.3"
   }
 }

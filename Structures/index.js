@@ -2,6 +2,7 @@ require("dotenv").config();
 
 const { Client, GatewayIntentBits, Partials } = require("discord.js")
 const { CustomClient } = require('./Classes/CustomClient')
+const { loadEvents } = require("./Functions/EventLoader")
 const client = new Client({
     
     intents:[
@@ -16,4 +17,6 @@ const client = new Client({
         Partials.Reaction
     ]
 })
+
+loadEvents(client)
 client.login(process.env.TOKEN)
