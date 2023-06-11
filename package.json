@@ -1,0 +1,24 @@
+{
+  "name": "cosmic-v14",
+  "version": "1.0.0",
+  "description": "A multipurpose discord bot using discord.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "c-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManthanBarot/cosmic-v14.git"
+  },
+  "author": "Manthan Barot",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ManthanBarot/cosmic-v14/issues"
+  },
+  "homepage": "https://github.com/ManthanBarot/cosmic-v14#readme",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^14.11.0",
+    "glob": "^10.2.7"
+  }
+}
